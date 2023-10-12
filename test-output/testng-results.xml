@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-11T16:49:27 IST" name="Default suite" finished-at="2023-10-11T16:49:39 IST" duration-ms="11482">
+    <groups>
+    </groups>
+    <test started-at="2023-10-11T16:49:27 IST" name="Default test" finished-at="2023-10-11T16:49:39 IST" duration-ms="11482">
+      <class name="com.ninja.qa.TestPages.TestProductPage">
+        <test-method is-config="true" signature="InitalizeExtentReport()[pri:0, instance:com.ninja.qa.TestPages.TestProductPage@cc43f62]" started-at="2023-10-11T16:49:27 IST" name="InitalizeExtentReport" finished-at="2023-10-11T16:49:27 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitalizeExtentReport -->
+        <test-method is-config="true" signature="getnameMethod(org.testng.ITestContext)[pri:0, instance:com.ninja.qa.TestPages.TestProductPage@cc43f62]" started-at="2023-10-11T16:49:27 IST" name="getnameMethod" finished-at="2023-10-11T16:49:27 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@34c70b5e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getnameMethod -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninja.qa.TestPages.TestProductPage@cc43f62]" started-at="2023-10-11T16:49:28 IST" name="OpenApp" finished-at="2023-10-11T16:49:33 IST" duration-ms="5393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="testproduct_addtocart()[pri:0, instance:com.ninja.qa.TestPages.TestProductPage@cc43f62]" started-at="2023-10-11T16:49:33 IST" name="testproduct_addtocart" finished-at="2023-10-11T16:49:39 IST" duration-ms="5748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testproduct_addtocart -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:com.ninja.qa.TestPages.TestProductPage@cc43f62]" started-at="2023-10-11T16:49:39 IST" name="CloseApp" finished-at="2023-10-11T16:49:39 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninja.qa.TestPages.TestProductPage@cc43f62]" started-at="2023-10-11T16:49:39 IST" name="generateTestStatus" finished-at="2023-10-11T16:49:39 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninja.qa.TestPages.TestProductPage.testproduct_addtocart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testproduct_addtocart status=SUCCESS method=TestProductPage.testproduct_addtocart()[pri:0, instance:com.ninja.qa.TestPages.TestProductPage@cc43f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:com.ninja.qa.TestPages.TestProductPage@cc43f62]" started-at="2023-10-11T16:49:39 IST" name="generateReports" finished-at="2023-10-11T16:49:41 IST" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+      </class> <!-- com.ninja.qa.TestPages.TestProductPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
